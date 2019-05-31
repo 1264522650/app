@@ -1,0 +1,225 @@
+.tou{
+    width: 7.5rem;
+    height: 0.88rem;
+    background: linear-gradient(left,#ff3a31,#ff6b1e);
+    background:-webkit-linear-gradient(left,#ff3a31,#ff6b1e);
+    font-size: 0.4rem;
+    line-height: 0.88rem;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    top: 0;
+}
+
+.xiaokuai{
+    height: 1.2rem;
+    width: 7.5rem;
+    background: linear-gradient(left,#ff3a31,#ff6b1e);
+    background:-webkit-linear-gradient(left,#ff3a31,#ff6b1e);
+    position: relative;
+}
+.xiaokuai .dizhikuang{
+    height:2.44rem;
+    width: 7rem;
+    background-color: #ffffff;
+    position: absolute;
+    top: 30%;
+    left:0.25rem;
+    border-radius: 0.1rem;
+	box-shadow: 0 0.04rem 3.2rem 0rem
+		rgba(251, 91, 33, 0.18);
+}
+.xiaokuai .dizhikuang .shang{
+    height: 0.88rem;
+    width: 6.7rem;
+    background-color:white;
+    margin:0.1rem;
+    border-bottom: 0.01rem solid #e5e5e5;
+}
+.xiaokuai .dizhikuang .shang p{
+    color:#7e7e7e;
+    font-size: 0.1rem;
+    line-height: 0.8rem;
+    float: left;
+}
+.xiaokuai .dizhikuang .shang i{
+    color: #7e7e7e;
+    line-height: 0.8rem;
+    float: right;
+}
+.xiaokuai .dizhikuang .xia{
+    height: 1.3rem;
+    width: 6.7rem;
+    background-color: white;
+    margin: 0 auto;
+}
+.xiaokuai .dizhikuang .xia p{
+    font-size: 0.2rem;
+    color: #cbcbcb;
+    margin: 0.1rem;
+}
+.xiaokuai .dizhikuang .xia .yu{
+    color: #ff6700;
+    font-size: 0.1rem;
+    float: right;
+}
+
+.caikuang{
+    height: 4.54rem;
+    width: 7rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    margin: 0 auto;
+    margin-top: 2rem;
+    border-radius: 0.1rem;
+    box-shadow: 0px 4px 32px 0px 
+    rgba(251, 91, 33, 0.18);
+}
+.caikuang .shang {
+    height: 2.04rem;
+    width: 6.4rem;
+    margin: 0.1rem auto;
+    border-bottom: 0.01rem solid #e5e5e5;
+
+}
+.caikuang .shang .zuo{
+    height:2rem;
+    width: 1.9rem;
+    float: left;
+}
+.caikuang .shang img{
+    height: 1.6rem;
+    width: 1.6rem;
+    border-radius: 0.8rem;
+    margin: 0.2rem;
+}
+.caikuang .shang .you{
+    height: 2rem;
+    width: 4rem;
+    float: right;
+}
+.caikuang .shang .you p{
+    line-height: 0.7rem;
+}
+.caikuang .shang .you .rou{
+    font-size: 0.3rem;
+    color: #9d9d9d;
+}
+.caikuang .shang .you .fen{
+    font-size: 0.2rem;
+    color: #9d9d9d;
+    float: right;
+}
+.caikuang .shang .you .jia{
+    margin-top: 0.4rem;
+}
+.caikuang .shang .you .jia a{
+    color: #ff5751;
+    font-size: 0.26rem;
+}
+.caikuang .shang .you .jia em{
+    color: #ff5751;
+    font-size: 0.4rem;
+}
+.caikuang .shang .you .jia span{
+    color: #ff3a31;
+    font-size: 0.32rem;
+}
+.caikuang .xia{
+    height: 1.9rem;
+    width: 6.4rem;
+    margin: 0.1rem auto;
+}
+.caikuang .xia .pei{
+    color: #9d9d9d;
+    font-size: 0.24rem;
+    line-height:0.5rem;
+}
+.caikuang .xia .pei span{
+    font-size: 0.2rem;
+    float: right;
+}
+.caikuang .xia .pei1{
+    color: #ff3a31;
+    font-size: 0.3rem;
+    line-height: 1.5rem;
+}
+.caikuang .xia .pei1 span{
+    font-size: 0.36rem;
+    float: right;
+}
+.caikuang .xia .pei1 span em{
+    font-size: 0.5rem;
+}
+.caikuang .xia .pei1 span em a{
+    font-size: 0.36rem;
+}
+.beizhu{
+    height: 2.5rem;
+    width: 7rem;
+    margin: 0 auto;
+    box-shadow: 0px 4px 32px 0px 
+    rgba(251, 91, 33, 0.18);
+}
+.beizhu .shang{
+    height: 0.6rem;
+    width: 7rem;
+    margin-top: 0.2rem;
+}
+.beizhu .shang span{
+    font-size: 0.24rem;
+    color: #9d9d9d;
+    line-height: 0.5rem;
+}
+.beizhu .shang .youxia{
+    height:0.6rem ;
+    width: 1.4rem;
+    position: absolute;
+    right: 0.3rem;
+    top:8.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.beizhu .shang .youxia b img{
+  height: 0.5rem; 
+  width: 0.5rem;
+border-radius: 50%;
+}
+.beizhu .shang .youxia p{
+    color: #ff6700;
+    line-height: 0.6rem;
+}
+.beizhu .xia{
+    height: 1.66rem;
+    width: 7rem;
+    margin: 0 auto;
+}
+.beizhu .xia .zuo{
+    height: 0.6rem;
+    width: 0.6rem;
+}
+.beizhu .xia .you{
+    height: 1.4rem;
+    width: 5.4rem;
+    background-color: #f2f2f2;
+    float: right;
+    margin-right: 0.5rem;
+    border-radius: 0.2rem;
+}
+.wei{
+    width: 7.5rem;
+    height: 0.96rem;
+    position:fixed;
+    bottom: 0;
+    padding: 0 0.24rem;
+    background: linear-gradient(left,#ff3a31,#ff6b1e);
+    background:-webkit-linear-gradient(left,#ff3a31,#ff6b1e);
+    font-weight: bold;
+    text-align: center;
+    line-height: 1rem;
+    font-size: 0.4rem;
+}
+a .wei{
+    color: white;
+}

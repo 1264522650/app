@@ -1,0 +1,130 @@
+.tou{
+    width: 7.5rem;
+    height: 0.88rem;
+    background: linear-gradient(left,#ff3a31,#ff6b1e);
+    background:-webkit-linear-gradient(left,#ff3a31,#ff6b1e);
+    font-size: 0.4rem;
+    line-height: 0.88rem;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    top: 0;
+}
+.lan{
+    height: 0.88rem;
+    width: 7.5rem;
+    background-color:#ffffff;
+    padding: 0.24rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+    border-bottom: 0.01rem solid #f2f2f2;    
+}
+.lan a{
+    font-size: 0.3rem;
+    line-height: 0.88rem;
+    margin: 0 auto;
+    color: #bcbcbc;
+}
+.lan .zi{
+    color: #ff6700;
+}
+.lan span{
+    height: 0.08rem;
+    width: 0.4rem;
+    background-color: #ff6700;
+    display: flex;
+    border-radius: 30%;
+    margin-top: 0.6rem;
+    position: absolute;
+    top: 0.1rem;
+    left: 0.6rem;
+}
+.ka{
+    height: 4.2rem;
+    width: 7rem;
+    margin: 0 auto;
+    line-height: 0.6rem;
+    box-shadow: 0px 6px 14px 0px 
+    rgba(252, 119, 101, 0.2);
+    margin-top: 0.2rem;
+}
+.ka .shang{
+    color: #333333;
+    font-size:0.36rem;
+    border-bottom: 0.01rem solid #bcbcbc;
+}
+.ka .shang em{
+    font-size: 0.28rem;
+}
+.ka .shang span{
+    font-size: 0.3rem;
+    color: #ff6700;
+    float: right;
+}
+.ka .zhong{
+    height: 2.3rem;
+    width: 7rem;
+    margin: 0 auto;
+}
+.ka .zhong .yuan{
+    height: 1.9rem;
+    width: 1.9rem;
+    background-color: red;
+    border-radius: 50%;
+    float: left;
+    overflow: hidden;
+}
+.ka img{
+    height: 1.9rem;
+    width: 1.9rem;
+}
+.ka .zhong .you{
+    height:1.9rem;
+    width: 4.8rem;
+    float: right;
+    margin-top: 0.2rem;
+}
+.ka .zhong .you  p.zi1{
+    font-size: 0.4rem;
+    color: black;
+}
+.ka .zhong .you p.zi2{
+    font-size: 0.4rem;
+    color: #f34845;
+    margin-top: 0.5rem;
+}
+.ka .zhong .you  p i{
+    float: right;
+    color: #d4d4d4;
+    font-size: 0.4rem;
+}
+.ka .zhongxia{
+    width:7rem;
+    height: 0.5rem;
+    font-size: 0.26rem;
+}
+.ka .xia{
+    height: 0.55rem;
+    width: 7rem;
+    margin-top: 0.1rem;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+.ka .xia .xiaohe{
+    height: 0.5rem;
+    width: 1.3rem;
+    background-color: #d3d3d3;
+    border-radius: 0.62rem;
+    color: #ffffff;
+    font-size: 0.2rem;
+    line-height: 0.5rem;
+    text-align: center;
+}
+.ka .xia .xiaohe1{
+    color: white;
+    background-color: #ff6700;
+}

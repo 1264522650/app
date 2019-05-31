@@ -1,0 +1,371 @@
+/* 头部 */
+.sui{
+    width: 7.5rem;
+    height: 0.88rem;
+    background: linear-gradient(left,#ff3a31,#ff6b1e);
+    background:-webkit-linear-gradient(left,#ff3a31,#ff6b1e);
+    font-size: 0.24rem;
+    line-height: 0.88rem;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    position:fixed;
+    top: 0;
+}
+/* 尾部 */
+.wei{
+    width: 7.5rem;
+    height: 0.96rem;
+    background-color: #fefefe;
+    position:fixed;
+    bottom: 0;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+
+}
+.wei .kuai1{
+    width:0.96rem;
+    height:0.96rem;
+}
+.wei .kuai1 a{
+    width:0.96rem;
+    height:0.96rem;
+    background-color: white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    align-items: center;
+}
+.wei .kuai1 a .iconfont{
+    font-size: 0.50rem;
+    color: #989898;
+}
+.wei .kuai1 a .iconfont1{
+    color: #ff6700;
+}
+.wei .kuai1 span{
+    font-size: 0.20rem;
+    color: #989898;
+}
+.wei .kuai1 a .shouye{
+    color: #ff6700;
+}
+/* 定位 */
+.dingwei{
+    height: 0.84rem;
+    width: 7.5rem;
+    background-color: #fefefe;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    display: flex;
+    margin-top: 0.1rem;
+}
+.dingwei{
+    flex-direction: column-reverse;
+    justify-content:center;
+}
+.dingwei a .iconfont{
+    font-size: 0.50rem;
+    color: #ff6700;
+}
+.dingwei a span{
+    color: #343434;
+    font-size:0.3rem;
+    line-height: 0.84rem;
+}
+.dingwei a .icon-huabanfuben{
+    color: #191919;
+    font-size: 0.2rem;
+    padding-left: 0.1rem;
+}
+/* 搜索框 */
+.sousuo{
+    height: 0.84rem;
+    width: 7.5rem;
+    padding: 0 0.24rem;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    border-radius:0 0.24rem 0 0.24rem;
+    line-height: 0.84rem;
+    box-shadow:0 0 0 0.1rem 1rem pink;
+}
+.sousuo .dabox input{
+    width: 4.4rem;
+    height: 0.82rem;
+    border: 0;
+    font-size: 0.30rem;
+    color: #989898;
+    text-indent: 1em;
+}
+.sousuo .dabox button{
+    width: 1rem;    
+    line-height:0.82rem;
+}
+.sousuo .dabox .iconfont{
+    color: #999999;
+    font-size: 0.40rem;
+}
+.sousuo .dabox .icon-cuo{
+    font-size: 0.3rem;
+    margin:0.1rem;
+}
+.sousuo .dabox span{
+    color: #999999;
+    margin-left:0.1rem;
+}
+/* 轮播图 */
+.lun{
+    width:7.5rem;
+    height:3.98rem;
+    margin-top:0.32rem;
+    position: relative;
+    padding: 0 0.24rem ;
+    box-sizing:border-box;
+    overflow: hidden;
+    box-shadow: 0 0 0.20rem 0.10rem #fef7f5;
+}
+.lun .lunbotu{
+    width:7.02rem;
+    height:3.98rem;
+    background:green;
+    position: absolute;
+    left:0.24rem;
+    top:0;
+    overflow: hidden;
+    box-sizing:border-box;
+    margin:0 auto;
+    /* 圆角 */
+    border-radius: 0.22rem;
+    box-shadow: 0 0 0.20rem 0.20rem #fef7f5;
+}
+.lun .lunbotu img{
+    width:7rem;
+    height:3.98rem;
+}
+
+
+
+
+
+
+/* 天天领卷 */
+.juan{
+    height: 1.7rem;
+    width: 7.5rem;
+    padding: 0 0.24rem;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border-radius:0.22rem;
+    margin-top: 0.2rem;
+}
+.juan .ling{
+    width:7.02rem;
+    height:1.7rem;
+    margin:0 auto;
+    overflow: hidden;
+    box-shadow: 0 0 0.20rem 0.20rem #fef7f5; 
+}
+.juan .ling img{
+    width:7.02rem;
+    height:1.70rem;
+    border-radius:0.22rem;
+}
+/* 积分开始 */
+.jifen{
+    width:7.5rem;
+    height:3rem;
+    box-sizing:border-box;
+    margin-top:0.28rem;
+    padding:0 0.24rem;
+}
+.jifen ul{
+    width:7.02rem;
+    height:3rem;
+    margin:0 auto;
+    display:flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    align-content:space-between;
+}
+.jifen .box{
+    width:3.44rem;
+    height:1.42rem;
+    border-radius:0.22rem;
+    position: relative;
+    box-shadow: 0 0 0.30rem 0.20rem #fef7f5;
+}
+.jifen .box2{
+    width:3.44rem;
+    height:2.98rem;
+    border-radius:0.22rem;
+    box-shadow: 0 0 0.20rem 0.30rem #fef7f5;
+}
+.jifen .box .yuan1{
+    color:#ff6a39;
+    font-size:0.32rem;
+    font-weight:bold;
+    margin:0.32rem 0 0 0.22rem;
+}
+.jifen .box .yuan{
+    margin-left:0.22rem;
+    font-size:0.24rem;
+    color:#7a7a7a;
+}
+.jifen .box2 img{
+    height:1.22rem;
+    margin:0.2rem  0.3rem auto;
+}
+.jifen .box1 .box3{
+    height: 1rem;
+    width: 1rem;
+    position: absolute;
+    right: 0.2rem;
+    top: 20%;
+}
+.jifen .box .yuan2{
+    position: absolute;
+    bottom:0.38rem;
+    left:0.2rem;
+    font-size:0.24rem;
+    color:#7a7a7a;
+}
+.jifen .box .guogai{
+    height:1.22rem;
+    margin:0.2rem  0.3rem auto;
+}
+.jifen .box .qiandai{
+    height:1.22rem;
+    margin:0.2rem  0.3rem auto;
+}
+/* 三小块开始 */
+.ka{    
+    width:7.5rem;
+    height:0.68rem;
+    margin-top:0.44rem;
+    padding: 0 0.24rem;
+    box-sizing:border-box;
+    margin: 0 auto;
+
+}
+.ka .shang{
+    height:0.7rem;
+    width: 3rem;
+    align-items: center;
+    display: flex;
+    margin-top: 0.3rem;
+}
+.ka img{
+    width:0.62rem;
+    height:0.62rem;
+}
+.ka span{
+    font-size:0.30rem;
+    font-weight:bold;
+    margin-left:0.2rem;
+}
+.tang{
+    width:7.5rem;
+    height:8rem;
+    margin-top:0.22rem;
+}
+.tang .tang1{
+    width:7.02rem;
+    height:2.3rem;
+    border-radius:0.22rem;
+    position: relative;
+    box-shadow: 0 0 0.20rem 0.05rem #fef7f5;
+    margin: 0 auto;
+}
+.tang .tang1 img{
+    width: 3.12rem;
+    height:1.96rem;
+    margin:0.18rem 0 0 0.18rem;
+}
+.tang .tang1 .right{
+    margin:0.18rem 0.18rem 0 0 ;
+    width:3.12rem;
+    height:1.96rem;
+    float:right;
+}
+.tang .tang1 .right1{
+    color: white;
+    font-size: 0.1rem;
+    text-align: center;
+    margin-top: 10px;
+}
+.tang .tang1 .biaoqian{
+    font-size:0.3rem;
+    font-weight:bold;
+
+}
+.tang .tang1 .biaoqian1{
+    color:#7a7a7a;
+    font-size:0.2rem;
+}
+.tang .tang1 .biaoqian2{
+    font-size:0.24rem;
+    color:#ffc3c1;
+}
+.tang .tang1 .biaoqian3{
+    font-size:0.24rem;
+    color:#ff4c45;
+}
+.tang .tang1 .biaoqian3 span{
+    font-size:0.3rem;
+    font-weight:bold;
+}
+.tang .tang1 .biaoqian4{
+    font-size:0.18rem;
+    margin-top:0.26rem;
+    color:#999999;
+}
+.tang .tang1 .right1{
+    width:0.45rem;
+    height:0.8rem;
+    margin-right:0.1rem;
+    background:#ff3931;
+    position: absolute;
+    right:0.45rem;
+    top:0;
+}.tang .tang1 .right2{
+    width: 0.45rem;
+    height: 0.2rem;
+    margin-right: 0.3rem;
+    box-sizing: border-box;
+    border-top:0 solid #ff3931;
+    border-right:0.23rem solid #ff3931;
+    border-bottom:0.3rem solid white;
+    border-left:0.23rem solid #ff3931;
+    position: absolute;
+    top:0.8rem;
+}
+.tang .tang1 .right3{
+    position: absolute;
+    border-top: 0.6rem solid #ff5824;
+    border-right: 0.6rem solid #ff5824;
+    border-left: 0.6rem solid transparent;
+    border-bottom:0.6rem solid transparent;
+    top: 0.2rem;
+    right: 0.2rem;
+}
+.tang .tang1 .right4{
+    position: absolute;
+    border-top: 0.6rem solid #ff5824;
+    border-right: 0.6rem solid #ff5824;
+    border-left: 0.6rem solid transparent;
+    border-bottom:0.6rem solid transparent;
+    top: 0.2rem;
+    right: 0.2rem;
+}
+.tang .tang1 p{
+    position: absolute;
+    top: 0.3rem;
+    right: 0.4rem;
+    color: white;
+}

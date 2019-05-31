@@ -1,0 +1,166 @@
+.header{
+    width:7.5rem;
+    height:0.88rem;
+    background:linear-gradient(right,#ff9700,red);
+    background:-webkit-linear-gradient(right,#ff9700,#ff3a11);
+    text-align:center;
+    line-height:0.88rem;
+    color:#fff;
+    font-weight:bold;
+    box-sizing:border-box;
+    top:0;
+    z-index: 100;
+}
+.topcontent{
+    width: 7.02rem;
+    height: 5.2rem;
+    margin: 0.4rem 0.24rem 0;
+    padding-top: 0.4rem;
+    box-sizing: border-box;
+    position: relative;
+    box-shadow: 0px 7px 49px 0px rgba(255, 86, 38, 0.09);
+}
+.topcontent img{
+    width: 4.08rem;
+    height: 3.6rem;
+    margin: 0.4rem 1.46rem  1.19rem;
+}
+.topcontent p{
+    position: absolute;
+    bottom: 0.44rem;
+    left: 2.29rem;
+    color: #000000;
+	opacity: 0.3;
+}
+.bottomcontent{
+    width: 7rem;
+    height: 6rem;
+    margin: 0 auto;
+    padding: 0 0.24rem;
+    margin-top: 0.2rem;
+    box-shadow: 0  0.07rem 0.49rem 0 rgba(255, 86, 38, 0.09);
+    border-radius: 0.1rem;
+    box-sizing: border-box;
+}
+.bottomcontent .title{
+    width: 5rem;
+    height: 0.63rem;
+    margin-top: 0.3rem;
+    padding:0.05rem;
+}
+.bottomcontent .title .left{
+    width: 0.63rem;
+	height: 0.63rem;
+	background-color: #d81e06;
+    opacity: 0.9;
+    border-radius: 0.3rem;
+    float: left;
+    text-align:center;
+    line-height: 0.63rem;
+}
+.bottomcontent .title .left .icon-meishi{
+    font-size: 0.46rem;
+    color: #fff; 
+}
+.bottomcontent .title p{
+    float: left;
+    font-size: 0.36rem;
+    line-height: 0.63rem;
+    color: #000000;
+    opacity: 0.8;
+    margin-left: 0.2rem;
+    
+}.bottomcontent .bigbox{
+    height: 5rem;
+    box-sizing: border-box;
+    overflow: auto;
+}
+.bottomcontent .bigbox::-webkit-scrollbar{
+    display: none;
+    width: 0;
+    height: 0;
+}
+
+.bottomcontent .dahe{
+    height: 4.5rem;
+    width:10rem;
+}
+.bottomcontent .centent{
+    height: 4.2rem;
+    width: 2.61rem;
+    margin-top: 0.19rem;
+    position: relative;
+    float: left;
+    margin-right: 0.2rem;
+}
+.bottomcontent .centent .tu{
+    border-radius:0.16rem;
+    width:1.3rem;
+}
+.bottomcontent .centent img{
+    height: 3.08rem;
+    width: 2.61rem;
+}
+.bottomcontent .centent .name{
+    width: 2rem;
+    height: 0.32rem;
+    line-height: 0.32rem;
+    color: #000000;
+    opacity: 0.7;
+    margin-top: 0.14rem;
+    margin-left: 0.17rem;
+}
+.bottomcontent .centent .price{
+    width: 1rem;
+    height: 0.36rem;
+    line-height: 0.32rem;
+    font-size: 0.36rem;
+    color: #ff3931;
+    margin-top: 0.17rem;
+    margin-left: 0.17rem;
+}
+.bottomcontent .centent .price span{
+    font-size: 0.24rem
+}
+.bottomcontent .icon-mangouwuche{
+    font-size: 0.4rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: #ff7918;
+}
+.Bigbottom{
+    width:7.5rem;
+    height:0.96rem;
+    border-top:1px solid #d7d7d7;
+    position:fixed;
+    bottom:0;
+    padding:0 0.24rem;
+    box-sizing:border-box;
+    display:flex;
+    justify-content: space-around;
+    background:#fff;
+    z-index: 100;
+}
+.small{
+    width:0.9rem;
+    height:0.96rem;
+    box-sizing: border-box;
+}
+.small a{
+    display:block;
+    width:0.9rem;
+    height:0.96rem;
+    flex-direction:column;
+    display:flex;
+    align-items: center;
+    justify-content:space-around;
+    color:#989898;
+    font-size:0.18rem;
+}
+.Bigbottom .i1{
+    font-size:0.44rem;
+}
+.Bigbottom .small .i2{
+    color:#ff5b2d;
+}

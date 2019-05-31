@@ -1,0 +1,177 @@
+/* 头部开始 */
+.tou{
+    width: 7.5rem;
+    height: 0.88rem;
+    background: linear-gradient(left,#ff3a31,#ff6b1e);
+    background:-webkit-linear-gradient(left,#ff3a31,#ff6b1e);
+    font-size: 0.4rem;
+    line-height: 0.88rem;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    top: 0;
+}
+/* 尾部结束 */
+.wei{
+    width: 7.5rem;
+    height: 0.96rem;
+    background-color: #fefefe;
+    position:fixed;
+    bottom: 0;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+.wei .kuai1{
+    width:0.96rem;
+    height:0.96rem;
+}
+.wei .kuai1 a{
+    width:0.96rem;
+    height:0.96rem;
+    background-color: white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    align-items: center;
+}
+.wei .kuai1 a .iconfont{
+    font-size: 0.50rem;
+    color: #989898;
+}
+.wei .kuai1 a .iconfont1{
+    color: #ff6700;
+}
+.wei .kuai1 span{
+    font-size: 0.20rem;
+    color: #989898;
+}
+.wei .kuai1 a .caidan{
+    color: #ff6700;
+}
+/* 菜单框开始 */
+.lan{
+    height: 0.88rem;
+    width: 7.5rem;
+    background-color:#ffffff;
+    padding: 0.24rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+}
+.lan a{
+    font-size: 0.3rem;
+    line-height: 0.88rem;
+    margin: 0 auto;
+    color: #bcbcbc;
+    font-weight: bold;
+}
+.lan .zi{
+    color: #ff6700;
+}
+.lan span{
+    height: 0.08rem;
+    width: 0.4rem;
+    background-color: #ff6700;
+    display: flex;
+    border-radius: 30%;
+    margin-top: 0.6rem;
+    position: absolute;
+    top: 0.1rem;
+    left: 0.5rem;
+}
+/* 菜品开始 */
+.caipin{
+    height:2.3rem;
+    width: 7.02rem;
+    background-color: #ffffff;
+    margin: 0 auto;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    border-radius: 0.1rem;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    box-shadow: 0 0 0.20rem 0.20rem #fef7f5;
+    margin-top: 0.1rem;
+    position: relative;
+}
+.caipin .zuo{
+    height:1.9rem;
+    width:3.1rem;
+    border-radius: 0.1rem;
+}
+.caipin .zuo img{
+    width: 3.1rem;
+    height: 1.9rem;
+    border-radius: 0.1rem;
+}
+.caipin .you{
+    height: 2.06rem;
+    width: 3.2rem;
+    background-color: #ffffff;
+}
+.caipin .you .zi1{
+    height: 0.38rem;
+    width: 1.9rem;
+    color:#343434;
+    font-size: 0.3rem;
+    font-weight:bold;
+    margin-top: 0.3rem;
+}
+.caipin .you .zi2{
+    height: 0.32rem;
+    width: 3.2rem;
+    color: #d9d9d9;
+    font-size: 0.1rem;
+}
+.caipin .you .zi3{
+    height: 0.36rem;
+    width: 1.04rem;
+    color: #ff6700;
+    font-size: 0.3rem;
+    font-weight: bold;
+    margin-top: 0.1rem;
+}
+.caipin .you .zi3 span{
+    width: 0.5rem;
+    height: 0.25rem;
+    font-size: 0.1rem;
+}
+.caipin .you .zi4{
+    width: 2rem;
+    height: 0.14rem;
+    font-size: 0.1rem;
+    color: #b8b8b8;
+}
+.youxia{
+    height:0.6rem ;
+    width: 1.4rem;
+    position: absolute;
+    right: 0.1rem;
+    bottom: 0.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.youxia b img{
+  height: 0.5rem; 
+  width: 0.5rem;
+border-radius: 50%;
+}
+.youxia p{
+    color: #ff6700;
+    line-height: 0.6rem;
+}
+.youxia span img{
+    height:1rem ;
+    width: 1rem;
+    position: absolute;
+    right:0;
+    top: 0;
+}

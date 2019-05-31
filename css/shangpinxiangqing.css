@@ -1,0 +1,216 @@
+/* 头部开始 */
+.tou{
+    width: 7.5rem;
+    height: 0.88rem;
+    background: linear-gradient(left,#ff3a31,#ff6b1e);
+    background:-webkit-linear-gradient(left,#ff3a31,#ff6b1e);
+    font-size: 0.4rem;
+    line-height: 0.88rem;
+    text-align: center;
+    color: white;
+    position:fixed;
+    font-weight: bold;
+    top: 0;
+}
+/* 尾部开始 */
+.wei{
+    width: 7.5rem;
+    height: 0.96rem;
+    background-color: #fefefe;
+    position:fixed;
+    bottom: 0;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.wei .kuai1{
+    height: 0.96rem;
+    width:3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.wei .kuai1 a {
+    display: block;
+    height: 0.65rem;
+    width: 0.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wei .kuai1 a .iconfont{
+    font-size: 0.50rem;
+    color: #ff5626;
+}
+.wei .kuai1 span {
+    font-size: 0.20rem; 
+    color: #ff5626;
+}
+.wei .kuai2{
+    height: 0.96rem;
+    width: 3rem;
+    font-size: 0.6rem;
+    background-color:#ff3732;
+    border-radius: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ff6700;
+}
+
+/* 菜图开始 */
+.caitu{
+    height:5.96rem ;
+    width: 7.5rem;
+    background-color: red;
+    margin-top: 0.8rem;
+}
+.caitu img{
+    height: 5.96rem;
+    width: 7.5rem;
+}
+/* 详情图结束 */
+/* 中间内容开始 */
+.dabox{
+    height: 5.1rem;
+    width: 7.5rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    position: relative;
+}
+.dabox .shang{
+    font-size:0.3rem;
+    color: #ff6700;
+    font-weight: bold;
+}
+.dabox .shang .no{
+    color: #ccc;
+}
+.dabox .money{
+    color: #ff6700;
+    font-size: 0.5rem;
+    position: absolute;
+    right: 1rem ;
+    top: 0.5rem;
+}
+.dabox .money em{
+    color: #ff6700;
+    font-size: 0.25rem;
+}
+.dabox .zi1{
+    color: #585858;
+    font-size: 0.5rem;
+}
+.dabox .zi2{
+    color: #a3a3a3;
+    font-size: 0.2rem;
+}
+.dabox .zhong{
+    display: flex;
+    justify-content: center;
+}
+.dabox .zhong p{
+    height: 0.5rem;
+    width: 1.66rem;
+    background-color: #fefefe;
+    border-radius:0.25rem;
+    margin: 0.1rem;
+    text-align: center;
+    font-size: 0.3rem;
+}
+.dabox .zhong .zi{
+    color: #ffd6cf;
+}
+.dabox .zhong .zi{
+    box-shadow: 0 0 0.1rem 0.05rem #ffccbd; 
+}
+.dabox .zhong .zi1{
+    color: #ff5625;
+    box-shadow: 0 0 0.1rem 0.05rem #ff8971;
+}
+.dabox .xia{
+    width: 7rem;
+    height: 2.24rem;
+    box-shadow: 0 0 0.1rem 0.01rem #ffccbd;
+    margin-top: 0.2rem;
+}   
+.dabox .xia .zuo{
+    height: 1.26rem;
+    width: 1.26rem;
+    background-color: black;
+    border-radius: 50%;
+    float: left;
+}
+.dabox .xia .you .xiaobox{
+    height: 0.56rem;
+    width: 6rem;
+    margin-left: 1.2rem 
+}
+.dabox .xia .you .xiaobox .z1{
+    width: 2.22rem;
+    height: 0.56rem;
+    float: left;
+    color: #585858;
+    font-size: 0.3rem;
+    line-height: 0.5rem;
+}
+.dabox .xia .you .xiaobox .z2{
+    color:#ff6700;
+}
+.dabox .xia .you .xiaobox .z2 .no{
+    color: #a3a3a3;
+}
+.dabox .xia .you .xiaobox .z2{
+    width: 2.2rem;
+    height: 0.56rem;
+    float: right;
+    margin-right: 0.2rem;
+}
+.dabox .xia .you .z3{
+    color: #cacaca;
+    font-size: 0.05rem;
+    line-height: 0.2rem;
+}
+.dabox .xia .you .z4{
+    width: 5.8rem;
+    float: right;
+    font-size: 0.2rem;
+    margin-right: 0.2rem;
+    line-height: 0.4rem;
+    color: #a3a3a3;
+}
+/* 中间内容结束 */
+/* 美食开始i */
+.mei{
+    height: 0.8rem;
+    width: 7.5rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    color: #585858;
+    line-height: 0.8rem;
+}
+.mei .icon-meishi{
+    color: #dc341e;
+}
+.tutu{
+    height: 3.06rem;
+    width: 7.5rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    margin-bottom:0.9rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.tutu p img{
+    height: 3rem;
+    width: 2.2rem;
+    border-radius:0.2rem;
+}
+.tutu .tutu1{
+    overflow: hidden;
+}
+/* 美食结束 */
